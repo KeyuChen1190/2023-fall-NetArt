@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+#app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #7a4e8b; 
+}
+
+#app::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#title {
+    font-size: 24px;
+    display: inline-block;
+    background: linear-gradient(to right, #fbffca, #4ba075);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+#curatorialText {
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.pixel {
+    position: fixed;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pixel.net1 {
+    background-image: url('../img/net1.png'); 
+}
+
+.pixel.net2 {
+    background-image: url('../img/net2.png'); 
+}
+
+.pixel.net3 {
+    background-image: url('../img/net3.png'); 
+}
+
